@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <input type="button" value="atualizar" onclick="imprimeTabela()"     >
+    <input type="button" value="download" onclick="exportTableToCSV()"     >
+
+    
+</header>
+
+<main>
+    <div id="divTabela">
+
+
+    </div>
+
+
+</main>
+</body>
+
+
+<script  src="{{ url_for('static', filename='tabela.js') }}">
+</script>
+
+
+
+</html>
